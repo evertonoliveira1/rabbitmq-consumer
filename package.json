@@ -1,0 +1,16 @@
+{
+  "name": "rick-and-morty-service",
+  "version": "1.0.0",
+  "description": "crawler to demonstrate how to receive rabbitmq messages",
+  "main": "index.js",
+  "author": "Everton Oliveira <evertonoliveira1@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "debug": "^4.1.1",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start": "DEBUG=rabbimq:* nodemon index.js"
+  }
+}
